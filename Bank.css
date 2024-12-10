@@ -1,0 +1,148 @@
+
+body{
+    background-color: #1e293b;
+    outline: none; 
+} 
+.head{
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: 900px 1fr;
+    margin-left: 90px;
+    background-color:#475589;
+   margin-top: 40px;
+    margin-right: 90px;
+    position: sticky;
+    top: 0;
+}
+.balance{
+    display: grid;
+    grid-template-columns:1060px 1fr ;
+    color: aliceblue;
+    margin-left: 90px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+/* .rigth{
+    display: grid;
+    grid-template-columns:500px 1fr ;
+    margin-left: 90px 
+
+} */
+.rigth{
+    margin-right: 30px;
+    padding-left: 20px;
+    padding: 40px;
+    color: beige;
+    font-size: medium;
+    font-weight: bold;
+    font-family: "inter",sans-serif;
+    height: 460px;
+    overflow-y: scroll;
+}
+
+
+
+
+/* .{
+    border-block-end: 1px solid #1e293b; */
+
+.sub  button{
+    /* background-color: red; */
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 30px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    z-index: 1000;
+    
+}
+
+.transactionhistory{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white;
+    height: 80px;
+    width: 100%;
+}
+
+.totaltrans{
+    margin-left: auto;
+}
+
+
+.left{
+    padding-bottom: 6px;
+    margin-bottom: 90px;
+    padding-left: 3px;
+    color: azure;
+    font-size: medium;
+    font-weight: bold;
+    font-family: "inter",sans-serif;
+    
+    
+}
+.left input{
+    background-color:#9d9c9c;
+   margin-right:10px;
+    height: 35px;
+    padding-top: 5PX;
+}
+.left svg{
+    background-color: #1e293b;
+    width: 45px;
+    color: azure;
+    
+    padding-right: 5px;
+}
+.money{
+    display: flex;
+    background-color: #475589;
+}
+.pesa{
+    padding-top: 20px;
+    background-color:#475589;
+    padding-left: 10px;
+}
+
+.pesa1{
+    padding-top: 20px;
+    margin-top: 10px;
+    background-color:#475589;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    
+}
+
+.pesa2{
+    padding-top: 20px;
+    background-color:#475589;
+    padding-left: 10px;
+    
+}
+.container{
+    display: grid;
+    grid-template-columns:720px 1fr ;
+}
+
+/* .rigth {
+        
+        background-color: #111;
+        overflow-y: scroll;
+       
+        
+    } */
+
+    .deposit{
+        background: #0ad50a;
+
+    }
+
+    .withdrawl{
+        background: #c50101;
+    }
+
+    .all{
+        padding: 0 6%;
+    }
